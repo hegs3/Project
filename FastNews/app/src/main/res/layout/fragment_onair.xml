@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#000000"></View>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/test1234"
+        android:gravity="center_vertical|center_horizontal">
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/test1234"
+        android:touchscreenBlocksFocus="true"
+        android:background="#ffffff"
+        android:clickable="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/onair_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:text="▷07:30 아침\n▷14:30 뉴스 현장\n▷15:50 사건 반장\n▷17:10 정치부회의\n▷20:00 JTBC 뉴스룸\n\n▶ 공식 홈페이지 http://news.jtbc.co.kr\n▶ 공식 페이스북 https://www.facebook.com/jtbcnews\n▶ 공식 트위터 https://twitter.com/JTBC_news\n\n방송사 : JTBC (http://www.jtbc.co.kr)"/>
+    </LinearLayout>
+</RelativeLayout>
