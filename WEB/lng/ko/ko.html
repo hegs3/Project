@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>n.GRILL</title>
+	<link href="css/generic.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../../css/web.css">
+	<link href="../../themes/1/js-image-slider.css" rel="stylesheet" type="text/css">
+    <script src="../../themes/1/js-image-slider.js" type="text/javascript"></script>
+    <script src="../../js/web.js"></script>
+
+</head>
+<body>
+
+<!-- NAViGATE-->
+<nav>
+	<ul>
+		<li><a href="#" ">n.GRILL</a></li>
+		<li><a class="test" href="#" onclick="popup()">예약</a></li>
+		<li>
+		<!-- <a class="me" href="#home">메뉴</a>
+		</div> -->
+		<div class="dropdebs">
+			<a class="debs" href="http://hegs3.dothome.co.kr/lng/ko/menu/menu.html">메뉴</a>
+			<div class="downdebs" style="margin-left: 6px;">
+				<a id="numb1" style="cursor:pointer;" onclick="linkmenu(0)">한 식</a>
+				<a id="numb2" style="cursor:pointer;" onclick="linkmenu(1)">중 식</a>
+				<a id="numb3" style="cursor:pointer;" onclick="linkmenu(2)">일 식</a>
+				<a id="numb3" style="cursor:pointer;" onclick="linkmenu(3)">양 식</a>
+			</div>
+		</div>
+		</li>
+		<li><div class="dropdebs">
+			<a class="debs" href="#link" onclick="scrollWin(4)">소개</a>
+			<div class="downdebs">
+				<a href="#link" id="numb1" onclick="scrollWin(0)">타워는</a>
+				<a href="#link" id="numb2" onclick="scrollWin(1)">음식은</a>
+				<a href="#link" id="numb3" onclick="scrollWin(2)">위치는</a>
+			</div>
+		</div></li>
+	</ul>
+</nav>
+
+<!-- HEADER -->
+<header>
+	<div id="sliderFrame" >
+        <div id="slider">
+        <img src="../../img/pic1.jpg">
+        <img src="../../img/pic2.jpg">
+        <img src="../../img/pic3.jpg">
+        <img src="../../img/pic4.jpg">
+        </div>
+    </div>
+</header>
+
+
+
+
+
+<!-- ARTICLE -->
+<article>
+<div class="main main1" id="toweris">
+	<hr>
+	<img id="mainpic1" src="../../img/main/1.jpg" width="500">
+	<div id="maintext1">
+		<h1>도심 속 아일랜드 타워는....</h1>
+		<h5>1969년 이후</h5>
+		<p>구름과 맞닿은 곳에서 남산의 자연과 21세기 첨단기술이 만들어낸 절묘한 조화, 여유로운 휴식과 다양한 문화가 함께하는 서울의 복합문화공간 JR타워 입니다.</p>
+		<p>서울의 중심, 서울의 상징이자 서울의 가장 아름다운 모습을 한눈에 내려다 볼 수 있는 가장 높은 곳 JR타워는 1969년 TV와 라디오 방송을 수도권에 송출하기 위해 한국 최초의 종합 전파탑으로 세워졌습니다.<br><br>
+		타워의 전파탑에는 KBS, MBC, SBS TV와 FM 송신안테나를 비롯하여 PBC, TBS, CBS, BBS FM 송신 안테나 등이 설치되어 있으며, 전국 가청 인구의 48%가 JR타워 전파탑을 통하여 방송을 시청하고 있습니다.<br>
+		JR타워는 1980년, 일반인에게 공개된 이후 남산의 살아있는 자연과 함께 서울시민의 휴식공간이자 외국인의 관광명소로 자리 잡았습니다.</p><br>
+		<p>최신LED기술의 조명으로 시시각각 색과 패턴이 변하는 '빛의 예술'과의 어우러짐 속에서 다양한 미디어 아트와 함께 색다른 문화예술을 경험하실 수 있습니다.서울의 대표적인 복합문화공간으로 새롭게 태어난 JR타워, 자랑스런 서울의 랜드마크가 될 것입니다.</p>
+	</div>
+
+</div>
+
+
+<div class="main main2" id="foodis">
+	<hr>
+	<img id="mainpic2" src="../../img/main/2.jpg" width="500" height="750">
+	<div id="maintext2">
+		<h1>n.GRILL에는....</h1>
+		<h4>한식</h4>
+		<p>한국식 요리의 총칭. 한식이라고 부르며, 주로 한국의 전통식 요리를 뜻합니다. 비빔밥, 불고기, 백반 정식 등의 메뉴가있습니다. </p><br>
+
+		<h4>중식</h4>
+		<p>중국식 요리의 총칭. 중식이라고 부르며, 주로 중국 요리를 뜻합니다. 짜장면, 짬뽕, 탕수육 등의 메뉴가있습니다. </p><br>
+
+		<h4>일식</h4>
+		<p>일본식 요리의 총칭. 일식이라고 부르며, 주로 일본 요리를 뜻합니다. 스시, 전골, 고기요리 등의 메뉴가있습니다. </p><br>
+
+		<h4>양식</h4>
+		<p>서양식 요리의 총칭. 양식이라고 부르며, 주로 서양 요리를 뜻합니다. 파스타, 햄버거, 센드위치 등의 메뉴가있습니다. </p><br>
+
+	</div>
+</div>
+<!-- <h1>Our Menu</h1>
+
+<h4>Bread Basket</h4>
+<p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+
+<h4>Honey Almond Granola with Fruits</h4>
+<p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+
+<h4>Belgian Waffle</h4>
+<p>Vanilla flavored batter with malted flour 7.50</p>
+<h4>Scrambled eggs</h4>
+<p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+
+<h4>Blueberry Pancakes</h4>
+<p>With syrup, butter and lots of berries 8.50</p> -->
+
+<!-- <hr> -->
+
+<!-- <h1>Contact</h1>
+
+<p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+
+<h5>Catering Service, 42nd Living St, 43043 New York, NY</h5>
+
+<p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+
+
+<input type="text" name="" placeholder="name"><br>
+<input type="number" name="" placeholder="how many people?"><br>
+
+
+<input type="datetime-local" name="" value="2017-11-16T20:00""><br>
+
+<input type="text" name="" value="message"><br>
+
+<input type="submit" name="submit" value="send message"><br>
+
+</P> -->
+
+<div class="main main3" id="localis">
+	<hr>
+	<img id="mainpic3" src="../../img/map/b.jpg" width="500">
+	<div id="maintext3">
+		<h1>오시는 길...</h1>
+		<p> </p><br>
+
+		<h5>지도</h5>
+		<p>02,03,05번 버스를 이용 시 N서울타워 하차</p><br><p> N서울타워 7층 n'GRILL </p>
+		<div id="mainmap" style="width:500px;height:400px;border:1px solid black;"><h4>404</h4><br><p>Not Found</p></div>
+	</div>
+
+</div>
+
+
+
+
+<script src="../../js/googlemap.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlEeuWBrYzMOPfb1tx07ZpQtG_aISWyIM&callback=initMap"></script>
+</article>
+
+
+
+<!-- FOOTER -->
+<footer>
+	<div class="foot">
+		<p>&copy 2017 - Jura<sup>TM</sup></p>
+		<a href="#ContactUs">Create By Jr</a> |
+		<a href="#Mail">Mail</a> |
+		<a href="#ContactUs">Contact us</a>
+	</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Admin Page</title>
+</head>
+<body>
+
+	<h2>Database Admin Page</h2>
+
+	<fieldset>
+		<legend>Database Insert Test</legend>
+		<form action="insertDB.php" method="post">
+
+			<p>
+				<label for="in_name">Name:</label>
+				<input type="text" name="name" id="in_name">
+			</p>
+			<p>
+				<label for="in_msg">Msg:</label>
+				<textarea name="msg" id="in_msg" cols="20" rows="5"></textarea>
+			</p>
+
+			<p>
+				<input type="submit" value="submit">
+				<input type="reset" value="cancel">
+			</p>
+			
+		</form>
+	</fieldset>
+
+	<fieldset>
+		<legend>Database Select Test</legend>
+
+		<form action="loadDB.php" method="post">
+			<input type="submit" value="load">		
+		</form>
+
+	</fieldset>
+
+</body>
+</html>
